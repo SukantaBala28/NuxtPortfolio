@@ -1,71 +1,47 @@
 <template>
-  <main>
-    <agile :arrows="false" :speed="1150"
-    :timing="'linear'" :fade="true"
-    :autoplay="true" :pauseOnHover="false">
-	    <div class="slide slide--1"><h1 style="color:red">Slide 1</h1></div>
-	    <div class="slide slide--2"><h1>Slide 2</h1></div>
-	    <div class="slide slide--3"><h1>Slide 3</h1></div>
-		</agile>
-    </main>
+  <div class="sliderItem">
+    <div class="mySlides">
+      <img src="../assets/img/la.jpg" style="width:100%">
+      <div class="container">
+        <h3>Los Angeles</h3>
+        <p><b>We had the best time playing at Venice Beach!</b></p>   
+      </div>
+    </div>
+    <div class="mySlides">
+      <img src="../assets/img/ny.jpg" style="width:100%">
+      <div class="container">
+        <h3>Los Angeles</h3>
+        <p><b>We had the best time playing at Venice Beach!</b></p>   
+      </div>
+    </div>
+    <div class="mySlides">
+      <img src="../assets/img/chicago.jpg" style="width:100%">
+      <div class="container">
+        <h3>Los Angeles</h3>
+        <p><b>We had the best time playing at Venice Beach!</b></p>   
+      </div>
+    </div>
+  </div>
 </template>
-
 <script>
-	import Vue from 'vue'
-	import VueAgile from 'vue-agile'
-	Vue.use(VueAgile)
-
 	export default {
+  middleware: 'authenticated'
 	}
 </script>
 
-<style lang="scss" scoped>
-.agile {
-    &__dots {
-        bottom: 0;
-        display: block;
-        left: 10px;
-        position: absolute;
-        width: 10px;
-    }
+<script>
+var myIndex = 0
+carousel()
 
-    &__dot {
-        margin-bottom: 10px;
-
-        button {
-            background-color: transparent;
-            border: 1px solid #fff;
-            margin-top: 10px;
-
-            &:hover {
-                background-color: #fff;
-            }
-        }
-
-        &--current {
-            button {
-                background-color: #fff;
-            }
-        }
-    }
+function carousel () {
+  var i
+  var x = document.getElementsByClassName('mySlides')
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = 'none'
+  }
+  myIndex++
+  if (myIndex > x.length) { myIndex = 1 }
+  x[myIndex - 1].style.display = 'block'
+  setTimeout(carousel, 4000)
 }
-
-.slide {
-    background: {
-        position: center;
-        size: cover;
-    }
-    height: 400px;
-
-    &--1 {
-        background-image: url(../assets/img/chicago.jpg);
-    }
-    &--2 {
-        background-image: url(../assets/img/ny.jpg);
-    }
-    &--3 {
-        background-image: url(../assets/img/la.jpg);
-    }
-
-}
-</style>
+</script>
