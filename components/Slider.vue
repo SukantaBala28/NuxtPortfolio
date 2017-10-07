@@ -23,11 +23,6 @@
     </div>
   </div>
 </template>
-<script>
-	export default {
-  middleware: 'authenticated'
-	}
-</script>
 
 <script>
 var myIndex = 0
