@@ -348,7 +348,10 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
+                      <div @mouseleave="mouseLeave ()" v-bind:class="{backgroundLayer:backgroundLayer, displayStyle:displayStyle}">
+                        <i class="fa fa-check-circle-o gomodal text-center" aria-hidden="true"></i>
+                      </div>
+                      <img @mouseover="mouseOver ()"  class="card-img-top myImage" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -448,7 +451,7 @@
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      <img class="card-img-top" src="../assets/img/nursinghomebd1.png" height="300px" alt="Clients Webdesing Project">
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -458,7 +461,37 @@
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      <img class="card-img-top" src="../assets/img/oldcareagebd.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -762,7 +795,21 @@
 <script>
 export default {
   data () {
-    return { menu2: true }
+    return {
+      displayStyle: true,
+      backgroundLayer: false,
+      menu2: true
+    }
+  },
+  methods: {
+    mouseOver: function () {
+      this.displayStyle = false
+      this.backgroundLayer = true
+    },
+    mouseLeave: function () {
+      this.displayStyle = true
+      this.backgroundLayer = false
+    }
   }
 }
 </script>
@@ -798,6 +845,30 @@ export default {
   }
   .nav-link{
     padding: 1rem 1rem;
+  }
+
+
+  .gomodal{
+    margin-left: 37%;
+  }
+  .displayStyle {
+    display:none;
+  }
+  .backgroundLayer {
+    position:absolute;
+    background-color: rgb(0,0,0,0.5);
+    width:100%;
+    height:300px;
+    z-index:1000;
+    font-size:100px;
+    color:#fff;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center; 
   }
   .card{
     margin-top: 25px!important;
@@ -865,6 +936,7 @@ export default {
   .myImagecarouselDiv {
     border-radius: 50%;
     background-size: 100% 100%;
+    border: 2px solid #007BFF;
   }
   .myImagecarouselDiv1{
     background-image: url(../assets/img/me1.jpg);
