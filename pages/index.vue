@@ -348,41 +348,121 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <img class="card-img-top" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Podhop</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">See Details</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere Menu2</a>
+                        <a href="#" class="btn btn-primary">See Details</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <img class="card-img-top" src="../assets/img/hackasolution.jpg" height="300px" alt="Hackasolution Landing Page">
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">HackASolution</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">See Details</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <img class="card-img-top" src="../assets/img/webdesignProject1.png" height="300px" alt="Clients Webdesing Project">
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/webdesignProject3.jpg" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Lingo 121</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Lingo 121</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/webdesignProject4.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/diagnosticbillmanagement.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/canbanglaimmigration.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See Details</a>
                       </div>
                     </div>
                   </div>
@@ -787,13 +867,13 @@ export default {
     background-size: 100% 100%;
   }
   .myImagecarouselDiv1{
-    background-image: url(../assets/img/sukanta1.jpg);
+    background-image: url(../assets/img/me1.jpg);
   }
   .myImagecarouselDiv2{
-    background-image: url(../assets/img/contactme.png);
+    background-image: url(../assets/img/me2.jpg);
   }
   .myImagecarouselDiv3{
-    background-image: url(../assets/img/ny.jpg);
+    background-image: url(../assets/img/me3.jpg);
   }
   .vert .carousel-item-next.carousel-item-left,
   .vert .carousel-item-prev.carousel-item-right {
