@@ -355,10 +355,32 @@
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
+
+                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        sfsdlkfjskdljfklsdjfksjdklfjksdjklfjsdlfjksldj
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                   <div class="col-lg-4">
                     <div class="card">
                       <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
@@ -873,7 +895,9 @@ export default {
   .card{
     margin-top: 25px!important;
   }
-
+  #exampleModalLong {
+    overflow: hidden!important;
+  }
   .clientIcon {
     width: 100px;
     height: 100px;
