@@ -348,10 +348,11 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
+                      <a data-toggle="modal" data-target="#exampleModalLong">
                       <div @mouseleave="mouseLeave ()" v-bind:class="{backgroundLayer:backgroundLayer, displayStyle:displayStyle}">
                         <i class="fa fa-check-circle-o gomodal text-center" aria-hidden="true"></i>
                       </div>
-                      <img @mouseover="mouseOver ()"  class="card-img-top myImage" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
+                      <img @mouseover="mouseOver ()"  class="card-img-top myImage" v-bind:class="{imgHover:imghover}" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page"></a>
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -363,20 +364,19 @@
                   </div>
 
                   <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
+                  <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body">
-                        sfsdlkfjskdljfklsdjfksjdklfjksdjklfjsdlfjksldj
+                        <h1>Podhop</h1>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                       </div>
                     </div>
                   </div>
@@ -820,6 +820,7 @@ export default {
     return {
       displayStyle: true,
       backgroundLayer: false,
+      imghover: false,
       menu2: true
     }
   },
@@ -827,10 +828,12 @@ export default {
     mouseOver: function () {
       this.displayStyle = false
       this.backgroundLayer = true
+      this.imghover = true
     },
     mouseLeave: function () {
       this.displayStyle = true
       this.backgroundLayer = false
+      this.imghover = false
     }
   }
 }
@@ -878,7 +881,7 @@ export default {
   }
   .backgroundLayer {
     position:absolute;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgb(26,188,156,0.5);
     width:100%;
     height:300px;
     z-index:1000;
@@ -890,10 +893,36 @@ export default {
     -ms-flex-align: center;
     -webkit-align-items: center;
     -webkit-box-align: center;
-    align-items: center; 
+    align-items: center;
+     -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+  }
+  .imgHover {
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   }
   .card{
     margin-top: 25px!important;
+  }
+  .card a {
+    cursor:pointer;
+  }
+  .card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+  .card img {
+    max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  }
+  .card img:hover {
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   }
   #exampleModalLong {
     overflow: hidden!important;
