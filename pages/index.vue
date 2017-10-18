@@ -348,39 +348,21 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
-                      <a data-toggle="modal" data-target="#exampleModalLong">
+                      <a data-toggle="modal" data-target="#podhopModal">
                       <div @mouseleave="mouseLeave ()" v-bind:class="{backgroundLayer:backgroundLayer, displayStyle:displayStyle}">
-                        <i class="fa fa-check-circle-o gomodal text-center" aria-hidden="true"></i>
+                        <i class="fa fa-plus-circle gomodal text-center" aria-hidden="true"></i>
                       </div>
                       <img @mouseover="mouseOver ()"  class="card-img-top myImage" v-bind:class="{imgHover:imghover}" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page"></a>
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#podhopModal">
                           See Details
                         </button>
                       </div>
                     </div>
                   </div>
 
-                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <h1>Podhop</h1>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                   <div class="col-lg-4">
                     <div class="card">
                       <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
@@ -807,6 +789,26 @@
                 </div>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    /* Modal Component */
+    <div class="modal fade" id="podhopModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
