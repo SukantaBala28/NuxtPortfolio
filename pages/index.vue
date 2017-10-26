@@ -349,10 +349,8 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#podhopModal">
-                      <div @mouseleave="mouseLeave ()" v-bind:class="{backgroundLayer:backgroundLayer, displayStyle:displayStyle}">
-                        <i class="fa fa-plus-circle gomodal text-center" aria-hidden="true"></i>
-                      </div>
-                      <img @mouseover="mouseOver ()"  class="card-img-top myImage" v-bind:class="{imgHover:imghover}" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page"></a>
+                        <img class="card-img-top myImage" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -365,141 +363,197 @@
 
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
+                      <a data-toggle="modal" data-target="#lingo121Modal">
+                        <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lingo121Modal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/hackasolution.jpg" height="300px" alt="Hackasolution Landing Page">
+                      <a data-toggle="modal" data-target="#hackAsolutionModal">
+                        <img class="card-img-top" src="../assets/img/hackasolution.jpg" height="300px" alt="Hackasolution Landing Page">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">HackASolution</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hackAsolutionModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/webdesignProject1.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#webDesignModal1">
+                        <img class="card-img-top" src="../assets/img/webdesignProject1.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal1">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/webdesignProject3.jpg" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#webDesignModal2">
+                        <img class="card-img-top" src="../assets/img/webdesignProject3.jpg" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal2">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#webDesignModal3">
+                        <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal3">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/webdesignProject4.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#punjiModal">
+                        <img class="card-img-top" src="../assets/img/webdesignProject4.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#punjiModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/diagnosticbillmanagement.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#diagnosticModal">
+                        <img class="card-img-top" src="../assets/img/diagnosticbillmanagement.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#diagnosticModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#sonarbdModal">
+                        <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sonarbdModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/canbanglaimmigration.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#canbanglaModal">
+                        <img class="card-img-top" src="../assets/img/canbanglaimmigration.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canbanglaModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/nursinghomebd1.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#webdesignModal4">
+                        <img class="card-img-top" src="../assets/img/nursinghomebd1.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal4">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/oldcareagebd.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#webdesignModal5">
+                        <img class="card-img-top" src="../assets/img/oldcareagebd.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal5">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#patarboiModal1">
+                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal1">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#patarboiModal2">
+                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal2">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#patarboiModal3">
+                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal3">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -813,6 +867,276 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" id="lingo121Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Lingo121 A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="hackAsolutionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="webDesignModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="webDesignModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="webDesignModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="webDesignModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="punjiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="diagnosticModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="sonarbdModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="canbanglaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="webdesignModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="webdesignModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="patarboiModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="patarboiModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="patarboiModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>Podhop</h1>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -820,22 +1144,7 @@
 export default {
   data () {
     return {
-      displayStyle: true,
-      backgroundLayer: false,
-      imghover: false,
       menu2: true
-    }
-  },
-  methods: {
-    mouseOver: function () {
-      this.displayStyle = false
-      this.backgroundLayer = true
-      this.imghover = true
-    },
-    mouseLeave: function () {
-      this.displayStyle = true
-      this.backgroundLayer = false
-      this.imghover = false
     }
   }
 }
@@ -900,11 +1209,6 @@ export default {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); 
   }
-  .imgHover {
-    -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  }
   .card{
     margin-top: 25px!important;
   }
@@ -912,7 +1216,7 @@ export default {
     cursor:pointer;
   }
   .card:hover{
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 0 15px rgba(33,33,33,.2); 
   }
 
   .card img {
