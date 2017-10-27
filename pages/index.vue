@@ -4,11 +4,11 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <img class="d-block img-fluid" src="../assets/img/sliderImage1.jpeg" alt="First slide">
-          <div class="carousel-caption d-md-block captionStyle">
-            <h1 class="welcomeText">LOOKING FORWARD TO HEARING FROM YOU</h1>
-            <h1>Why You Choosing Me, Because...</h1>
+          <div class="carousel-caption d-md-block captionStyleFirst">
+            <h1 class="welcomeText aboveLayer">LOOKING FORWARD TO HEARING FROM YOU</h1>
+            <h1 class="aboveLayer">Why You Choosing Me, Because...</h1>
             <section id="section07">
-              <a href="#about"><span></span><span></span><span></span></a>
+              <a class="aboveLayer" href="#about"><span></span><span></span><span></span></a>
             </section>
           </div>
         </div>
@@ -19,6 +19,9 @@
               <i class="fa fa-wrench" aria-hidden="true"></i>
             </div>
             <h1 class="choosingmeText">I'm Hard Worker</h1>
+            <section id="section07">
+              <a class="aboveLayer" href="#about"><span></span><span></span><span></span></a>
+            </section>
           </div>
         </div>
         <div class="carousel-item">
@@ -26,17 +29,24 @@
           <div class="carousel-caption d-md-block captionStyle">
             <div class="sliderIcon">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <br/>
             </div>
             <h1 class="choosingmeText">I'm Punctual</h1>
+            <section id="section07">
+              <a class="aboveLayer" href="#about"><span></span><span></span><span></span></a>
+            </section>
           </div>
         </div>
-         <div class="carousel-item">
+        <div class="carousel-item">
           <img class="d-block img-fluid" src="../assets/img/sliderImage4.jpeg" alt="Third slide">
           <div class="carousel-caption d-md-block captionStyle">
             <div class="sliderIcon">
               <i class="fa fa-handshake-o" aria-hidden="true"></i>
             </div>
             <h1 class="choosingmeText">I'm Honest</h1>
+            <section id="section07">
+              <a class="aboveLayer" href="#about"><span></span><span></span><span></span></a>
+            </section>
           </div>
         </div>
          <div class="carousel-item">
@@ -46,6 +56,9 @@
               <i class="fa fa-code" aria-hidden="true"></i>
             </div>
             <h1 class="choosingmeText">I Like to Code</h1>
+            <section id="section07">
+              <a class="aboveLayer" href="#about"><span></span><span></span><span></span></a>
+            </section>
           </div>
         </div>
       </div>
@@ -100,7 +113,7 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-bottom:50px;">
             <h1>SERVICES</h1>
-            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+            <h5>I always take care my client.</h5>
           </div>
         </div>
         <div class="row text-center">
@@ -109,24 +122,24 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-git fa-stack-1x fa-inverse"></i>
             </span>
-            <h4>E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4>Git Solution</h4>
+            <p class="text-muted">Git is a most popular Version Control System. I am using git for project management. Really, I enjoy this VCS. It saves my lot of times and tension.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-css3 fa-stack-1x fa-inverse"></i>
             </span>
-            <h4>Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4>CSS3 Language</h4>
+            <p class="text-muted">I am using most latest HTML standards in my project. CSS3 transition, animation is just awesome.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">HTML5 Standards</h4>
+            <p class="text-muted">I am expert in modern HTML5 stndards. There is a very useful HTML5 tags which is updated from HTML4.5 to HTML5. Default form validation, localStorage, audio, video tags are added in HTML5</p>
           </div>
 
           <div class="col-md-4">
@@ -134,8 +147,8 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-github fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Github</h4>
+            <p class="text-muted">Github is a most popular platform for project free hosted. I am using Github form project hosted and  by github we can our project in online.</p>
           </div>
 
           <div class="col-md-4">
@@ -143,8 +156,8 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="service-heading">Relationship</h4>
+            <p class="text-muted">I build up with my client a big term relationship. I respect my client deadline. Relationship is very important to collaborate with others.</p>
           </div>
 
           <div class="col-md-4">
@@ -153,7 +166,7 @@
               <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">I always take care my clients web security. Without authorigation you can not Sign in your account.</p>
           </div>
         </div>
       </div>
@@ -191,75 +204,90 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#webDesignModal1">
+                        <img class="card-img-top" src="../assets/img/webdesignProject1.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere Menu2</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal1">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#webDesignModal2">
+                        <img class="card-img-top" src="../assets/img/webdesignProject3.jpg" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal2">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#webDesignModal3">
+                        <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal3">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#webdesignModal4">
+                        <img class="card-img-top" src="../assets/img/nursinghomebd1.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal4">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#webdesignModal5">
+                        <img class="card-img-top" src="../assets/img/oldcareagebd.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal5">
+                          See Details
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <a data-toggle="modal" data-target="#sonarbdModal">
+                        <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
+                      <div class="card-body">
+                        <h4 class="card-title">Webdesign </h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sonarbdModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -270,78 +298,18 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#canbanglaModal">
+                        <img class="card-img-top" src="../assets/img/canbanglaimmigration.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canbanglaModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg-4">
-                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere Menu2</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
+                  </div> 
                 </div>
               </div>
               <div id="all" class="tab-pane fade show active">
@@ -360,7 +328,6 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#lingo121Modal">
@@ -563,53 +530,57 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#podhopModal">
+                        <img class="card-img-top myImage" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Podhop</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere Menu2</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#podhopModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#lingo121Modal">
+                        <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Lingo 121</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lingo121Modal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#hackAsolutionModal">
+                        <img class="card-img-top" src="../assets/img/hackasolution.jpg" height="300px" alt="Hackasolution Landing Page">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">HackASolution</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hackAsolutionModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#patarboiModal1">
+                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal1">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -619,75 +590,15 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
+                      <a data-toggle="modal" data-target="#diagnosticModal">
+                        <img class="card-img-top" src="../assets/img/diagnosticbillmanagement.png" height="300px" alt="Clients Webdesing Project">
+                      </a>
                       <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
+                        <h4 class="card-title">Webdesign </h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4" v-show="menu2">
-                     <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere Menu2</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <img class="card-img-top" src="../assets/img/contactme.png" alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#diagnosticModal">
+                          See Details
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -848,7 +759,6 @@
       </div>
     </div>
 
-    /* Modal Component */
     <div class="modal fade" id="podhopModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
@@ -1143,9 +1053,6 @@
 <script>
 export default {
   data () {
-    return {
-      menu2: true
-    }
   }
 }
 </script>
@@ -1256,8 +1163,11 @@ export default {
     width: 100%!important;
     height: 700px;
   }
-  .captionStyle{
+  .captionStyleFirst{
     padding-bottom: 250px!important;
+  }
+  .captionStyle{
+    padding-bottom: 300px!important;
   }
   .welcomeText {
     font-size: 70px;
@@ -1265,6 +1175,7 @@ export default {
   }
   .choosingmeText{
     color: #007BFF;
+    z-index: 100000;
   }
   .sliderIcon{
     width: 70px;
@@ -1273,6 +1184,7 @@ export default {
     background-color: #007BFF;
     margin: 0 auto;
     font-size: 40px;
+    margin-top: -20px!important;
   }
   #carouselExampleControls1{
     height: 350px;
@@ -1329,7 +1241,7 @@ export default {
   }
 
 #section07 a{
-  margin-top:200px!important;
+  margin-top:20px!important;
 }
 #section07 a span {
   position: absolute;
