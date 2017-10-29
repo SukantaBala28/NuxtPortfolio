@@ -34,27 +34,35 @@
 			  		</div>
 			  		<div class="row">
 			  			<div class="col-lg-6">
-			  				<div class="social-div1 github">
-			  					<span class="social-link"><i class="fa fa-github-alt" aria-hidden="true"></i></span>
-			  				</div>
+			  				<a href="https://github.com/SukantaBala28" title="Go to my Github profile">
+				  				<div class="social-div1 github">
+				  					<p class="social-link"><i class="fa fa-github-alt" aria-hidden="true"></i></p>
+				  				</div>
+				  			</a>
 			  			</div>
 			  			<div class="col-lg-6">
-			  				<div class="social-div2 linkedin">
-			  					<span class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-			  				</div>
+			  				<a href="https://www.linkedin.com/in/sukanta-bala-461418117/" title="Go to my Linkedin profile">
+				  				<div class="social-div2 linkedin">
+				  					<p class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i></p>
+				  				</div>
+				  			</a>
 			  			</div>
 			  		</div>
 			  		<br/>
 			  		<div class="row">
 			  			<div class="col-lg-6">
-			  				<div class="social-div1 twitter">
-			  					<span class="social-link"><i class="fa fa-twitter" aria-hidden="true"></i></span>
-			  				</div>
+			  				<a href="https://stackoverflow.com/users/6295132/sukanta-bala" title="Go to my Stackoverflow profile">
+				  				<div class="social-div1 twitter">
+				  					<p class="social-link"><i class="fa fa-stack-overflow" aria-hidden="true"></i></p>
+				  				</div>
+				  			</a>
 			  			</div>
 			  			<div class="col-lg-6">
-			  				<div class="social-div2 facebook">
-			  					<span class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></span>
-			  				</div>
+			  				<a href="https://www.facebook.com/sukanta.bala28" title="Go to my Facebook profile">
+				  				<div class="social-div2 facebook">
+				  					<p class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></p>
+				  				</div>
+				  			</a>
 			  			</div>
 			  		</div>
 	  			</div>
@@ -119,8 +127,9 @@ export default {
 }
 .social-link{
 	font-size:45px;
-	text-align:center;
 	color:#fff;
+	padding-left: 10px;
+	margin-top: -8px;
 }
 .subfooter{
 	padding: 15px 0px 0px 0px;
@@ -147,11 +156,31 @@ export default {
 }
 .twitter:hover{
 	cursor:pointer;
+	background-color:#00ABD0;
 }
 .facebook{
 	background-color:#295295;
 }
 .facebook:hover{
 	cursor:pointer;
+	background-color:#295270;
+}
+
+@media screen and (max-width: 991px) {
+	.social-div1{
+		float:none;
+		margin: 0 auto;
+	}
+	.social-div2{
+		float:none;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.mainfooterLeft, .mainfooterMiddle {
+		border-right:0px!important;
+	}
 }
 </style>
