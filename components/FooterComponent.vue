@@ -20,9 +20,9 @@
 	  				<div class="">
 	  					<h5 class="text-left marginLeft">Personal Link</h5><br/>
 			  			<ul>
-	  						<a href="#"><li>Curriculam Vitae</li></a>
-	  						<a href="#"><li>Bangla Blog</li></a>
-	  						<a href="#"><li>English Blog</li></a>
+	  						<a href="https://drive.google.com/file/d/0B7mJh4HL9OkbRDk5OEhvUEpoWEpWVXowV3NmVF9MbFF5dnNR/view?usp=sharing" target="_blank"><li>Curriculam Vitae</li></a>
+	  						<a href="http://balasukanta.blogspot.com/" target="_blank"><li>Bengali Blog</li></a>
+	  						<a href="http://www.bdtunnel.com/" target="_blank"><li>English Blog</li></a>
 	  						<a href="#"><li>General Queries</li></a>
 	  					</ul>
 			  		</div>
@@ -34,14 +34,14 @@
 			  		</div>
 			  		<div class="row">
 			  			<div class="col-lg-6">
-			  				<a href="https://github.com/SukantaBala28" title="Go to my Github profile">
+			  				<a href="https://github.com/SukantaBala28" title="Go to my Github profile" target="_blank">
 				  				<div class="social-div1 github">
 				  					<p class="social-link"><i class="fa fa-github-alt" aria-hidden="true"></i></p>
 				  				</div>
 				  			</a>
 			  			</div>
 			  			<div class="col-lg-6">
-			  				<a href="https://www.linkedin.com/in/sukanta-bala-461418117/" title="Go to my Linkedin profile">
+			  				<a href="https://www.linkedin.com/in/sukanta-bala-461418117/" title="Go to my Linkedin profile" target="_blank">
 				  				<div class="social-div2 linkedin">
 				  					<p class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i></p>
 				  				</div>
@@ -51,14 +51,14 @@
 			  		<br/>
 			  		<div class="row">
 			  			<div class="col-lg-6">
-			  				<a href="https://stackoverflow.com/users/6295132/sukanta-bala" title="Go to my Stackoverflow profile">
+			  				<a href="https://stackoverflow.com/users/6295132/sukanta-bala" title="Go to my Stackoverflow profile" target="_blank">
 				  				<div class="social-div1 twitter">
 				  					<p class="social-link"><i class="fa fa-stack-overflow" aria-hidden="true"></i></p>
 				  				</div>
 				  			</a>
 			  			</div>
 			  			<div class="col-lg-6">
-			  				<a href="https://www.facebook.com/sukanta.bala28" title="Go to my Facebook profile">
+			  				<a href="https://www.facebook.com/sukanta.bala28" title="Go to my Facebook profile" target="_blank">
 				  				<div class="social-div2 facebook">
 				  					<p class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></p>
 				  				</div>

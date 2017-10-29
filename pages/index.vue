@@ -715,36 +715,38 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row text-center" style="margin-top:50px;">
-                    <i class="Phone is-animating"></i>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <form>
-                    <div class="form-group">
-                      <label class="label" for="formGroupExampleInput">Your Name</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                    </div>
-                    <div class="form-group">
-                      <label class="label" for="formGroupExampleInput2">Your Email</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-                    </div>
-                    <div class="form-group">
-                      <label class="label" for="formGroupExampleInput3">Phone No</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-                    </div>
-                    <div class="form-group">
-                      <label class="label" for="formGroupExampleInput4">Your massege</label>
-                      <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
-                    </div>
-                  </form>
-                  <button type="button" class="btn btn-info">Send Message</button>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row text-center" style="margin-top:50px;">
+                  <i class="Phone is-animating"></i>
                 </div>
               </div>
-            </form>
+              <div class="col-md-6">
+                <form id="googleform" method="POST" action="https://script.google.com/macros/s/AKfycbyVCzN63PWo1mEYsOOWrFZIdt_t-YlExHnvz0sjgxLNA-PLw-Ix/exec">
+                  <div class="form-group">
+                    <label class="label" for="formGroupExampleInput">Your Name<span class="requiredIcon">*</span></label>
+                    <input id="nameField" name="Name" class="form-control" type="text" placeholder="Please Enter Your Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label class="label" for="formGroupExampleInput2">Your Email<span class="requiredIcon">*</span></label>
+                    <input id="emailField" name="Email" class="form-control" type="email" placeholder="Please Enter Your Email"  required>
+                  </div>
+                  <div class="form-group">
+                    <label class="label" for="formGroupExampleInput3">Phone No.</label>
+                    <input id="phoneField" name="Phone" class="form-control" type="text" placeholder="Please Enter Your Phone No.">
+                  </div>
+                  <div class="form-group">
+                    <label class="label" for="formGroupExampleInput4">Your massege<span class="requiredIcon">*</span></label>
+                    <textarea id="messageField" name="Message" class="form-control" rows="5" placeholder="Please Enter Your Message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-info">Send Message</button>
+                </form>
+                <div id="thankyou_message" style="display:none;color:red!important;">
+                  <h2 class="text-success"><em>Thanks</em> for contacting!
+                    I will get back to you soon!</h2>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1043,6 +1045,11 @@
 
 <script>
 export default {
+  head: {
+    script: [
+      {src: 'https://cdn.rawgit.com/SukantaBala28/Web_Development_Project-1/0b729031/form-handlar-submission.js'}
+    ]
+  },
   data () {
   }
 }
@@ -1146,6 +1153,9 @@ export default {
     background-color: #bbb;
     margin: 0 auto;
     font-size: 90px;
+  }
+  .requiredIcon {
+    color: #ff0000;
   }
   .carousel {
     height: 700px;
@@ -1311,7 +1321,7 @@ export default {
   margin: 0;
   width: 1em;
   height: 1em;
-  font-size: 60vmin;
+  font-size: 260px;
   text-align: center!important;
   margin: 0 auto!important;
   background-color: #3498db;
