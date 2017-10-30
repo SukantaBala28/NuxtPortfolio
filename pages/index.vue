@@ -615,33 +615,49 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-bottom:50px;">
             <h1>OUR TEAM</h1>
-            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+            <h5>Unity is strength. A team makes a project more successful.</h5>
           </div>
         </div>
-        <div class="row text-center">
+        <div class="row text-center justify-content-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4>E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="teamSection">
+              <img src="../assets/img/seema1.jpg" class="teamImg" width="150px" height="150px">
+              <h4>Seema Das</h4>
+              <p>Senior Software Engineer</p>
+              <p class="text-muted">Seema Das is a Full Stack Web Developer. She has  more than 3 years experience in MEAN stack platform.</p>
+            </div>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4>Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="teamSection">
+              <img src="../assets/img/me1.jpg" class="teamImg" width="150px" height="150px">
+              <h4>Sukanta Bala</h4>
+              <p>Junior Software Engineer</p>
+              <p class="text-muted">Sukanta Bala is a Full Stack Web Developer. He has more than 1 years experience in MEAN stack platform. Now, he is working on Vue Js.</p>
+            </div>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="teamSection">
+              <img src="../assets/img/paris.jpg" class="teamImg" width="150px" height="150px">
+              <h4>Paris Ariyan</h4>
+              <p>Senior Software Engineer</p>
+              <p class="text-muted">Paris Ariyan is a Full Stack Web Developer.He has expert in raw PHP.He is more than 3 years experience in PHP. He is also experienced in laravel framework.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="teamSection">
+              <img src="../assets/img/alvi.jpg" class="teamImg" width="150px" height="150px">
+              <h4>Hasan Nomani Alvi</h4>
+              <p>Junior Software Engineer</p>
+              <p class="text-muted">Hasan Nomani Alvi  is a Full Stack Web Developer. He has more than 1 years experience in MEAN stack platform.Now he is working in NodeJs Framework.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="teamSection">
+              <img src="../assets/img/sazzad.jpg" class="teamImg" width="150px" height="150px">
+              <h4>Sazzad Hossain</h4>
+              <p>Senior Frond-End Developer</p>
+              <p class="text-muted">Sazzad Hossain is senior Front-End Developer. He has more than 3 years experience in Front-End Web Developing.He is expert in LESS, SASS, JavaScript and so on.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -756,13 +772,13 @@
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
+            <h1 class="text-center" style="text-align:center">Podhop</h1>
           </div>
           <div class="modal-body">
-            <h1>Podhop</h1>
+            <p>Podhop is a social website.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -1049,8 +1065,6 @@ export default {
     script: [
       {src: 'https://cdn.rawgit.com/SukantaBala28/Web_Development_Project-1/0b729031/form-handlar-submission.js'}
     ]
-  },
-  data () {
   }
 }
 </script>
@@ -1138,6 +1152,9 @@ export default {
   #exampleModalLong {
     overflow: hidden!important;
   }
+  .modal-header {
+    display: block!important;
+  }
   .clientIcon {
     width: 100px;
     height: 100px;
@@ -1156,6 +1173,9 @@ export default {
   }
   .requiredIcon {
     color: #ff0000;
+  }
+  .teamImg {
+    border-radius: 50%!important;
   }
   .carousel {
     height: 700px;
