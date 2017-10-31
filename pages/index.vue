@@ -321,7 +321,7 @@
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Podhop is a social website. In podhop you can create group, event, custom progfile and so on.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#podhopModal">
                           See Details
                         </button>
@@ -335,7 +335,7 @@
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Lingo121 helps language learners in Canada find, book, and pay for private tutors in their city.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lingo121Modal">
                           See Details
                         </button>
@@ -349,7 +349,7 @@
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">HackASolution</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">HackASolution (www.hackasolution.com) is an invite-only hacker network for solving your technology problems.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hackAsolutionModal">
                           See Details
                         </button>
@@ -531,11 +531,11 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#podhopModal">
-                        <img class="card-img-top myImage" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
+                        <img class="card-img-top myImage" src="../assets/img/project/podhopLandingPage.jpg" height="300px" width="100%" alt="Podhop Landing Page">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Podhop is a social website. In podhop you can create group, event, custom progfile and so on.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#podhopModal">
                           See Details
                         </button>
@@ -545,11 +545,11 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#lingo121Modal">
-                        <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
+                        <img class="card-img-top" src="../assets/img/project/lingolanding.jpg" height="300px" width="100%" alt="Lingo121 Landing Page">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Lingo121 helps language learners in Canada find, book, and pay for private tutors in their city.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lingo121Modal">
                           See Details
                         </button>
@@ -563,7 +563,7 @@
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">HackASolution</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">HackASolution (www.hackasolution.com) is an invite-only hacker network for solving your technology problems.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hackAsolutionModal">
                           See Details
                         </button>
@@ -773,14 +773,14 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
               <h1 class="text-center" style="text-align:center">Podhop</h1>
             </div>
             <div class="modal-body">
               <div class="modal-text">
-                <p>At PodHop people can just as easily connect for big ideas and business ventures, as they can for fun and companionship and for nearly everything else in between.</p>
-                <p>In podhop people can create event, group, sharing thoughts. They can communicate other easily. A lot of opportunities you will get with podhop.</p>
+                <p>PodHop is an innovative new social platform that has a dream of changing the world to one where we are all one mindful degree of separation apart from one another. Anyone can sign up to podhop.com for free and do a quick search for the right person for any task, as well as to discover who may be searching for someone just like them. The PodHop platform encourages people to hop out of their social encasings (pods) and to see that the right person is just a hop away.</p>
+                <p>At PodHop people can just as easily connect for big ideas and business ventures, as they can for fun and companionship and for nearly everything else in between.In podhop, people can create event, group, sharing thoughts and so on.You can communicate with other people easily. A lot of opportunities you will get with podhop.</p>
                 <h3>All In All with Podhop</h3>
                 <img src="../assets/img/project/podhop1.jpg" width="100%">
                 <h3>Home Page</h3>
@@ -794,7 +794,7 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -803,16 +803,24 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Lingo121 A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Lingo 121</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Lingo121 helps language learners in Canada find, book, and pay for private tutors in their city. Sort of like AirBnB....for learning languages!</p>
+                <h3>How It Works</h3>
+                <img src="../assets/img/project/lingo1211.jpg" width="100%">
+                <h3>Teacher</h3>
+                <img src="../assets/img/project/lingo1212.jpg" width="100%">
+                <h3>Partners</h3>
+                <img src="../assets/img/project/lingo1213.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -821,16 +829,28 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">HackASolution</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>HackASolution (www.hackasolution.com) is an invite-only hacker network for solving your technology problems.We focus on delivering a solution in one to twelve weeks.</p>
+                <h3>Home Section</h3>
+                <img src="../assets/img/project/hackasolution1.jpg" width="100%">
+                <h3>How it works</h3>
+                <img src="../assets/img/project/hackasolution2.jpg" width="100%">
+                <h3>Hacker Network</h3>
+                <img src="../assets/img/project/hackasolution3.jpg" width="100%">
+                <h3>Brands</h3>
+                <img src="../assets/img/project/hackasolution4.jpg" width="100%">
+                <h3>More</h3>
+                <img src="../assets/img/project/hackasolution5.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
