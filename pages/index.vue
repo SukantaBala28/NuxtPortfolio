@@ -488,8 +488,8 @@
                         <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Patar Boi</h4>
+                        <p class="card-text">A website for short and simple books for kids. You will can read books, upload books, write books review and so on.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal1">
                           See Details
                         </button>
@@ -1039,16 +1039,28 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Patar Boi</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>A website for short and simple books for kids. You will can read books, upload books, write books review and so on.</p>
+                <h3>Home Section</h3>
+                <img src="../assets/img/project/patarboi1.jpg" width="100%">
+                <h3>How it works</h3>
+                <img src="../assets/img/project/hackasolution2.jpg" width="100%">
+                <h3>Hacker Network</h3>
+                <img src="../assets/img/project/hackasolution3.jpg" width="100%">
+                <h3>Brands</h3>
+                <img src="../assets/img/project/hackasolution4.jpg" width="100%">
+                <h3>More</h3>
+                <img src="../assets/img/project/hackasolution5.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
