@@ -317,7 +317,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#podhopModal">
-                        <img class="card-img-top myImage" src="../assets/img/podhop.jpg" height="300px" alt="Podhop Landing Page">
+                        <img class="card-img-top myImage" src="../assets/img/project/podhopLandingPage.jpg" height="300px" width="100%" alt="Podhop Landing Page">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Podhop</h4>
@@ -331,7 +331,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#lingo121Modal">
-                        <img class="card-img-top" src="../assets/img/lingo121.png" height="300px" alt="Lingo121 Landing Page">
+                        <img class="card-img-top" src="../assets/img/project/lingolanding.jpg" height="300px" width="100%" alt="Lingo121 Landing Page">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
@@ -359,7 +359,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal1">
-                        <img class="card-img-top" src="../assets/img/webdesignProject1.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/webdesign1Landing.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
@@ -373,7 +373,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal2">
-                        <img class="card-img-top" src="../assets/img/webdesignProject3.jpg" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/webdesign2Landing.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
@@ -387,7 +387,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal3">
-                        <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/webdesign3Landing.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Lingo 121</h4>
@@ -401,7 +401,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#punjiModal">
-                        <img class="card-img-top" src="../assets/img/webdesignProject4.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/punjiLanding.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
@@ -429,7 +429,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#sonarbdModal">
-                        <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/sonartoriLanding.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
@@ -471,7 +471,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webdesignModal5">
-                        <img class="card-img-top" src="../assets/img/oldcareagebd.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/oldcareageLanding1.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Webdesign </h4>
@@ -783,7 +783,14 @@
                 <p>In podhop people can create event, group, sharing thoughts. They can communicate other easily. A lot of opportunities you will get with podhop.</p>
                 <h3>All In All with Podhop</h3>
                 <img src="../assets/img/project/podhop1.jpg" width="100%">
-                <h3>Rent or Sell</h3>
+                <h3>Home Page</h3>
+                <img src="../assets/img/project/podhopHome.png" width="100%">
+                <h3>Group</h3>
+                <img src="../assets/img/project/podhopGroup.png" width="100%">
+                <h3>Rel or Sell</h3>
+                <img src="../assets/img/project/podhopRentSell.png" width="100%">
+                <h3>Searching System</h3>
+                <img src="../assets/img/project/searchingSystem.png" width="100%">
               </div>
             </div>
             <div class="modal-footer">
@@ -1164,6 +1171,11 @@ export default {
   }
   .modal-text {
     text-align: justify;
+  }
+  .modal-text h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .clientIcon {
     width: 100px;
