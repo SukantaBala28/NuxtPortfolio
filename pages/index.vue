@@ -238,8 +238,8 @@
                         <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Webpaint</h4>
+                        <p class="card-text">A webdesign client project. This project has been completed within 3 days. This project contains various section.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal3">
                           See Details
                         </button>
@@ -387,11 +387,11 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal3">
-                        <img class="card-img-top" src="../assets/img/project/webdesign3Landing.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Webpaint</h4>
+                        <p class="card-text">A webdesign client project. This project has been completed within 3 days. This project contains various section.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal3">
                           See Details
                         </button>
@@ -895,34 +895,24 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Webpaint</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Webpaint is a webdesign client project.</p>
+                <h3>Home Section</h3>
+                <img src="../assets/img/project/webpaint1.jpg" width="100%">
+                <h3>Featured Works</h3>
+                <img src="../assets/img/project/webpaint2.jpg" width="100%">
+                <h3>Get in touch</h3>
+                <img src="../assets/img/project/webpaint3.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="webDesignModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <h1>Podhop</h1>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -931,16 +921,28 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Punji</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Punji is a donaton based non-progit organization. This is a organization which helps helpless, poor people. This site has been constite for crowedfunding purposes.</p>
+                <h3>Home Section</h3>
+                <img src="../assets/img/project/punji1.jpg" width="100%">
+                <h3>Entrepeeneru/Investor/Helper</h3>
+                <img src="../assets/img/project/punji2.jpg" width="100%">
+                <h3>Categories</h3>
+                <img src="../assets/img/project/punji3.jpg" width="100%">
+                <h3>Details</h3>
+                <img src="../assets/img/project/punji4.jpg" width="100%">
+                <h3>Footer Section</h3>
+                <img src="../assets/img/project/punji5.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -967,16 +969,24 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Sonartori</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Sonartori is a donation based non-profit organization. This organization provides food, accomodation, medicine for helpless children.</p>
+                <h3>Home Section</h3>
+                <img src="../assets/img/project/sonartori1.jpg" width="100%">
+                <h3>Brands Overview</h3>
+                <img src="../assets/img/project/sonartori2.jpg" width="100%">
+                <h3>Footer Section</h3>
+                <img src="../assets/img/project/sonartori3.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -1049,14 +1059,10 @@
                 <p>A website for short and simple books for kids. You will can read books, upload books, write books review and so on.</p>
                 <h3>Home Section</h3>
                 <img src="../assets/img/project/patarboi1.jpg" width="100%">
-                <h3>How it works</h3>
-                <img src="../assets/img/project/hackasolution2.jpg" width="100%">
-                <h3>Hacker Network</h3>
-                <img src="../assets/img/project/hackasolution3.jpg" width="100%">
-                <h3>Brands</h3>
-                <img src="../assets/img/project/hackasolution4.jpg" width="100%">
-                <h3>More</h3>
-                <img src="../assets/img/project/hackasolution5.jpg" width="100%">
+                <h3>Books Overview</h3>
+                <img src="../assets/img/project/patarboi2.jpg" width="100%">
+                <h3>Submit A Article</h3>
+                <img src="../assets/img/project/patarboi3.jpg" width="100%">
               </div>
             </div>
             <div class="modal-footer">
@@ -1183,7 +1189,9 @@ export default {
   .card:hover{
     box-shadow: 0 0 15px rgba(33,33,33,.2); 
   }
-
+  .card-body  button:hover {
+    cursor: pointer;
+  }
   .card img {
     max-width: 100%;
   -moz-transition: all 0.3s;
