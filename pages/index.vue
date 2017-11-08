@@ -205,11 +205,11 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal1">
-                        <img class="card-img-top" src="../assets/img/webdesignProject1.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/moveme1.jpg" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Moveme</h4>
+                        <p class="card-text">Moveme is a webdesign client project. This project has been completed during my academic education.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal1">
                           See Details
                         </button>
@@ -359,11 +359,11 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal1">
-                        <img class="card-img-top" src="../assets/img/project/webdesign1Landing.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/moveme1.jpg" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Moveme</h4>
+                        <p class="card-text">Moveme is a webdesign client project. This project has been completed during my academic education.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal1">
                           See Details
                         </button>
@@ -859,16 +859,26 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Moveme</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Moveme is a webdesign client project. This project has been completed during my academic education.</p>
+                <h3>Home</h3>
+                <img src="../assets/img/project/moveme1.jpg" width="100%">
+                <h3>Four Modes</h3>
+                <img src="../assets/img/project/moveme2.jpg" width="100%">
+                <h3>Connection</h3>
+                <img src="../assets/img/project/moveme3.jpg" width="100%">
+                <h3>Footer</h3>
+                <img src="../assets/img/project/moveme4.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -877,16 +887,30 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">PAHARADAR</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>PAHARADAR is a web desing client project as like as wyzant website. One-to-one learning works. We’ve believed that from day one. But we also knew it would work better if it were accessible, affordable, and more convenient for everyone. So that’s what we’ve built—an easier way to connect people who need to know with the experts that can teach them. And we’ve changed the way people think about education in the process.</p>
+                <h3>Home</h3>
+                <img src="../assets/img/project/paharadar1.jpg" width="100%">
+                <h3>Learning</h3>
+                <img src="../assets/img/project/paharadar2.jpg" width="100%">
+                <h3>Experts</h3>
+                <img src="../assets/img/project/paharadar3.jpg" width="100%">
+                <h3>Instructors</h3>
+                <img src="../assets/img/project/paharadar4.jpg" width="100%">
+                <h3>Trending Subjects</h3>
+                <img src="../assets/img/project/paharadar5.jpg" width="100%">
+                <h3>Footer</h3>
+                <img src="../assets/img/project/paharadar6.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -951,16 +975,20 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Diagnostic Center Bill Management System</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>This is a ASP.NET project.  Diagnostic Center Bill Management System is a project which maintains diagnostic center bill. All accounts will be calculate by this system. You can down a team report after billing.</p>
+                <h3>Home</h3>
+                <img src="../assets/img/project/diagnosticcenter1.png" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -995,16 +1023,28 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">Canbangla Immigration</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Canbangla Immigration is a canada based immigration service. This project is completed by Nuxt.js a new Server Side Rendering framework of Vue Js. This site helps a canadian bangladeshi immigrant.</p>
+                <h3>Home</h3>
+                <img src="../assets/img/project/canbangla1.jpg" width="100%">
+                <h3>Newsletter</h3>
+                <img src="../assets/img/project/canbangla2.jpg" width="100%">
+                <h3>Blogs</h3>
+                <img src="../assets/img/project/canbangla3.jpg" width="100%">
+                <h3>Free Assessment Form</h3>
+                <img src="../assets/img/project/canbangla4.png" width="100%">
+                <h3>Contact</h3>
+                <img src="../assets/img/project/canbangla5.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -1013,16 +1053,28 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">NursinghomeBD</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Nursinghome Service BD Companion Services offers a variety of services including in-home companion care to assist seniors, new and expectant parents, and other individuals who may need extra help around the house.</p>
+                <h3>Home</h3>
+                <img src="../assets/img/project/nursinghomebd1.jpg" width="100%">
+                <h3>What is nursinghomebd?</h3>
+                <img src="../assets/img/project/nursinghomebd2.jpg" width="100%">
+                <h3>Services</h3>
+                <img src="../assets/img/project/nursinghomebd3.jpg" width="100%">
+                <h3>Certificate</h3>
+                <img src="../assets/img/project/nursinghomebd4.jpg" width="100%">
+                <h3>Gallery</h3>
+                <img src="../assets/img/project/nursinghomebd5.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
@@ -1031,16 +1083,28 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">OldcareageBD</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>Child and Old Age Care Ltd. are a leading Home Care company which main aspect is to provide services to the elderly and ill persons. We have a skilled team of medical stuff who are professionals and highly experienced. We arehave completed many nursing service across the dhaka city.</p>
+                <h3>Home</h3>
+                <img src="../assets/img/project/oldcareagebd1.jpg" width="100%">
+                <h3>Menu</h3>
+                <img src="../assets/img/project/oldcareagebd2.jpg" width="100%">
+                <h3>Services</h3>
+                <img src="../assets/img/project/oldcareagebd3.jpg" width="100%">
+                <h3>Donate</h3>
+                <img src="../assets/img/project/oldcareagebd4.jpg" width="100%">
+                <h3>Contact Form</h3>
+                <img src="../assets/img/project/oldcareagebd5.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
