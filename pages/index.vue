@@ -216,26 +216,24 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal2">
-                        <img class="card-img-top" src="../assets/img/webdesignProject3.jpg" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/paharadar1.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">PAHARADAR</h4>
+                        <p class="card-text">PAHARADAR is a web desing client project as like as wyzant website. One-to-one learning works.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal2">
                           See Details
                         </button>
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal3">
-                        <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/webpaint1.jpg" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Webpaint</h4>
@@ -246,46 +244,57 @@
                       </div>
                     </div>
                   </div>
-
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <a data-toggle="modal" data-target="#punjiModal">
+                        <img class="card-img-top" src="../assets/img/project/punjiLanding.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
+                      </a>
+                      <div class="card-body">
+                        <h4 class="card-title">Punji</h4>
+                        <p class="card-text">Punji is a donaton based non-progit organization. This is a organization which helps helpless, poor people.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#punjiModal">
+                          See Details
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <a data-toggle="modal" data-target="#sonarbdModal">
+                        <img class="card-img-top" src="../assets/img/project/sonartoriLanding.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
+                      </a>
+                      <div class="card-body">
+                        <h4 class="card-title">Sonartori</h4>
+                        <p class="card-text">Sonartori is a donation based non-profit organization. This organization provides food,medicine for helpless children.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sonarbdModal">
+                          See Details
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webdesignModal4">
                         <img class="card-img-top" src="../assets/img/nursinghomebd1.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Nursinghome BD </h4>
+                        <p class="card-text">Nursinghome Service BD Companion Services offers a variety of services including essential services.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal4">
                           See Details
                         </button>
                       </div>
                     </div>
                   </div>
-
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webdesignModal5">
-                        <img class="card-img-top" src="../assets/img/oldcareagebd.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/oldcareageLanding1.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Oldcareage BD </h4>
+                        <p class="card-text">Child and Old Age Care Ltd. are a leading Home Care company which provides services to the elderly and ill persons.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal5">
-                          See Details
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <a data-toggle="modal" data-target="#sonarbdModal">
-                        <img class="card-img-top" src="../assets/img/sonartori.png" height="300px" alt="Clients Webdesing Project">
-                      </a>
-                      <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sonarbdModal">
                           See Details
                         </button>
                       </div>
@@ -310,6 +319,20 @@
                       </div>
                     </div>
                   </div> 
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <a data-toggle="modal" data-target="#myportfoliomodal">
+                        <img class="card-img-top" src="../assets/img/project/myportfoliolanding.jpg" height="300px" alt="Clients Webdesing Project">
+                      </a>
+                      <div class="card-body">
+                        <h4 class="card-title">My Personal Portfolio </h4>
+                        <p class="card-text">This is my personal portfolio. It has been created by Nuxt.js a ultramodern Vue Js framework.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myportfoliomodal">
+                          See Details
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div id="all" class="tab-pane fade show active">
@@ -349,7 +372,7 @@
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">HackASolution</h4>
-                        <p class="card-text">HackASolution (www.hackasolution.com) is an invite-only hacker network for solving your technology problems.</p>
+                        <p class="card-text">HackASolution  is an invite-only hacker network for solving your technology problems.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hackAsolutionModal">
                           See Details
                         </button>
@@ -373,11 +396,11 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal2">
-                        <img class="card-img-top" src="../assets/img/project/webdesign2Landing.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/paharadar1.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Lingo 121</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">PAHARADAR</h4>
+                        <p class="card-text">PAHARADAR is a web desing client project as like as wyzant website. One-to-one learning works.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webDesignModal2">
                           See Details
                         </button>
@@ -387,7 +410,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#webDesignModal3">
-                        <img class="card-img-top" src="../assets/img/webdesignProject2.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/webpaint1.jpg" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Webpaint</h4>
@@ -404,8 +427,8 @@
                         <img class="card-img-top" src="../assets/img/project/punjiLanding.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Punji</h4>
+                        <p class="card-text">Punji is a donaton based non-progit organization. This is a organization which helps helpless, poor people.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#punjiModal">
                           See Details
                         </button>
@@ -418,8 +441,8 @@
                         <img class="card-img-top" src="../assets/img/diagnosticbillmanagement.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Diagnostic</h4>
+                        <p class="card-text">This is a ASP.NET project.  Diagnostic Center Bill Management System is a project which maintains diagnostic center bill.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#diagnosticModal">
                           See Details
                         </button>
@@ -432,8 +455,8 @@
                         <img class="card-img-top" src="../assets/img/project/sonartoriLanding.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Sonartori</h4>
+                        <p class="card-text">Sonartori is a donation based non-profit organization. This organization provides food,medicine for helpless children.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sonarbdModal">
                           See Details
                         </button>
@@ -446,8 +469,8 @@
                         <img class="card-img-top" src="../assets/img/canbanglaimmigration.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Canbangla Immigration </h4>
+                        <p class="card-text">Canbangla Immigration is a canada based immigration service. This project is completed by Nuxt.js.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canbanglaModal">
                           See Details
                         </button>
@@ -460,8 +483,8 @@
                         <img class="card-img-top" src="../assets/img/nursinghomebd1.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Nursinghome BD </h4>
+                        <p class="card-text">Nursinghome Service BD Companion Services offers a variety of services including essential services.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal4">
                           See Details
                         </button>
@@ -474,8 +497,8 @@
                         <img class="card-img-top" src="../assets/img/project/oldcareageLanding1.jpg" height="300px" width="100%" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Oldcareage BD </h4>
+                        <p class="card-text">Child and Old Age Care Ltd. are a leading Home Care company which provides services to the elderly and ill persons.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webdesignModal5">
                           See Details
                         </button>
@@ -485,7 +508,7 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#patarboiModal1">
-                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/patarboilanding.jpg" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">Patar Boi</h4>
@@ -498,19 +521,19 @@
                   </div>
                   <div class="col-lg-4">
                     <div class="card">
-                      <a data-toggle="modal" data-target="#patarboiModal2">
-                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                      <a data-toggle="modal" data-target="#myportfoliomodal">
+                        <img class="card-img-top" src="../assets/img/project/myportfoliolanding.jpg" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal2">
+                        <h4 class="card-title">My Personal Portfolio </h4>
+                        <p class="card-text">This is my personal portfolio. It has been created by Nuxt.js a ultramodern Vue Js framework.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myportfoliomodal">
                           See Details
                         </button>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4">
+                  <!-- <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#patarboiModal3">
                         <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
@@ -523,7 +546,7 @@
                         </button>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div id="mean" class="tab-pane fade">
@@ -563,7 +586,7 @@
                       </a>
                       <div class="card-body">
                         <h4 class="card-title">HackASolution</h4>
-                        <p class="card-text">HackASolution (www.hackasolution.com) is an invite-only hacker network for solving your technology problems.</p>
+                        <p class="card-text">HackASolution  is an invite-only hacker network for solving your technology problems.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hackAsolutionModal">
                           See Details
                         </button>
@@ -573,11 +596,11 @@
                   <div class="col-lg-4">
                     <div class="card">
                       <a data-toggle="modal" data-target="#patarboiModal1">
-                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
+                        <img class="card-img-top" src="../assets/img/project/patarboilanding.jpg" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Patar Boi</h4>
+                        <p class="card-text">A website for short and simple books for kids. You will can read books, upload books, write books review and so on.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal1">
                           See Details
                         </button>
@@ -594,8 +617,8 @@
                         <img class="card-img-top" src="../assets/img/diagnosticbillmanagement.png" height="300px" alt="Clients Webdesing Project">
                       </a>
                       <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Diagnostic</h4>
+                        <p class="card-text">This is a ASP.NET project.  Diagnostic Center Bill Management System is a project which maintains diagnostic center bill.</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#diagnosticModal">
                           See Details
                         </button>
@@ -1135,20 +1158,31 @@
           </div>
         </div>
       </div>
-      <div class="modal fade" id="patarboiModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal fade" id="myportfoliomodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Podhop A Social Website. This is a site which is unique social site.</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span style="font-size:30px; color:#007BFF;cursor:pointer"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
               </button>
+              <h1 class="text-center" style="text-align:center">My Personal Portfolio</h1>
             </div>
             <div class="modal-body">
-              <h1>Podhop</h1>
+              <div class="modal-text">
+                <p>This is my personal portfolio. It has been created by Nuxt.js a ultramodern Vue Js framework.</p>
+                <h3>Home</h3>
+                <img src="../assets/img/project/myportfoliolanding.jpg" width="100%">
+                <img src="../assets/img/project/myportfolio1.jpg" width="100%">
+                <img src="../assets/img/project/myportfolio2.jpg" width="100%">
+                <img src="../assets/img/project/myportfolio3.jpg" width="100%">
+                <img src="../assets/img/project/myportfolio4.jpg" width="100%">
+                <img src="../assets/img/project/myportfolio5.jpg" width="100%">
+                <h3>Social Link</h3>
+                <img src="../assets/img/project/myportfolio6.jpg" width="100%">
+              </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="cursor:pointer">Close</button>
             </div>
           </div>
         </div>
