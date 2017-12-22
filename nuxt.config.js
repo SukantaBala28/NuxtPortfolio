@@ -24,9 +24,6 @@ module.exports = {
   css: [
     'font-awesome/css/font-awesome.css'
   ],
-  /*
-  ** Customize the progress bar color
-  */
   loading: { color: '#3B8070' },
   /*
   ** Build configuration

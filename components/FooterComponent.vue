@@ -23,7 +23,7 @@
 	  						<a href="https://drive.google.com/file/d/0B7mJh4HL9OkbRDk5OEhvUEpoWEpWVXowV3NmVF9MbFF5dnNR/view?usp=sharing" target="_blank"><li>Curriculam Vitae</li></a>
 	  						<a href="http://balasukanta.blogspot.com/" target="_blank"><li>Bengali Blog</li></a>
 	  						<a href="http://www.bdtunnel.com/" target="_blank"><li>English Blog</li></a>
-	  						<a href="#"><li>General Queries</li></a>
+	  						<!-- <a href="#"><li>General Queries</li></a> -->
 	  					</ul>
 			  		</div>
 	  			</div>

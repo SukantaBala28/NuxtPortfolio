@@ -82,7 +82,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 aboutmeText">
-            <h5> " My name is Sukanta Bala. I am a CSE graduate from Noakhali Science and Technology University. I have been working in a software farm since 1st Oct, 2016 as a junior web developer. I have been developing various project since university. These projects are based on MEAN stack, pure HTML, CSS, JavaScript, Vue JS, and ASP.NET etc. You can find my Curriculum Vitae link in footer section. I always take care my client’s project deadline. I am hard worker person and I am highly interested to learn a new technology. Reading tech blog is like a hobby to me. You can depend on me without no hesitation for completing your dream project.<br/><br/>
+            <h5> " My name is Sukanta Bala. I am a CSE graduate from Noakhali Science and Technology University. I have been working in a software firm since 1st Oct, 2016 as a junior web developer. I have been developing various project since university. These projects are based on MEAN stack, pure HTML, CSS, JavaScript, Vue JS, and ASP.NET etc. You can find my Curriculum Vitae link in footer section. I always take care my client’s project deadline. I am hard worker person and I am highly interested to learn a new technology. Reading tech blog is like a hobby to me. You can depend on me without no hesitation for completing your dream project.<br/><br/>
             My nationality is Bangladeshi. I am proud to be a Bangladeshi. My home district is Gopalganj. You are always welcome to visit my village home. " 
             </h5>
           </div>
@@ -148,7 +148,7 @@
               <i class="fa fa-github fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Github</h4>
-            <p class="text-muted">Github is a most popular platform for project free hosted. I am using Github form project hosted and  by github we can our project in online.</p>
+            <p class="text-muted">Github is a most popular platform for project free hosted. I am using Github for project hosted and  using github you can keep your project online.</p>
           </div>
 
           <div class="col-md-4">
@@ -166,7 +166,7 @@
               <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">I always take care my clients web security. Without authorigation you can not Sign in your account.</p>
+            <p class="text-muted">I always take care my clients web security. Now a days web security is a most priority section for web developing.</p>
           </div>
         </div>
       </div>
@@ -177,7 +177,7 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-bottom:50px;">
             <h1>PORTFOLIO</h1>
-            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+            <h5>Portfolio is best way to express yourself.</h5>
           </div>
         </div>
         <div class="row text-center">
