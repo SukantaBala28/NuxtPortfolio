@@ -3,7 +3,10 @@
     <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="4000">
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block img-fluid" src="../assets/img/sliderImage1.jpeg" alt="First slide">
+          <div class="backImg1">
+            <div class="backLayer"></div>
+          </div>
+          <!-- <img class="d-block img-fluid" src="../assets/img/sliderImage1.jpeg" alt="First slide"> -->
           <div class="carousel-caption d-md-block captionStyleFirst">
             <h1 class="welcomeText aboveLayer">LOOKING FORWARD TO HEARING FROM YOU</h1>
             <h1 class="aboveLayer">Why You Choosing Me, Because...</h1>
@@ -13,7 +16,10 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="../assets/img/sliderImage2.jpeg" alt="Second slide">
+          <div class="backImg2">
+            <div class="backLayer"></div>
+          </div>
+          <!-- <img class="d-block img-fluid" src="../assets/img/sliderImage2.jpeg" alt="Second slide"> -->
           <div class="carousel-caption d-md-block captionStyle">
             <div class="sliderIcon">
               <i class="fa fa-wrench" aria-hidden="true"></i>
@@ -25,7 +31,10 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="../assets/img/sliderImage3.jpeg" alt="Third slide">
+          <div class="backImg3">
+            <div class="backLayer"></div>
+          </div>
+          <!-- <img class="d-block img-fluid" src="../assets/img/sliderImage3.jpeg" alt="Third slide"> -->
           <div class="carousel-caption d-md-block captionStyle">
             <div class="sliderIcon">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -38,7 +47,10 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="../assets/img/sliderImage4.jpeg" alt="Third slide">
+          <div class="backImg4">
+            <div class="backLayer"></div>
+          </div>
+          <!-- <img class="d-block img-fluid" src="../assets/img/sliderImage4.jpeg" alt="Third slide"> -->
           <div class="carousel-caption d-md-block captionStyle">
             <div class="sliderIcon">
               <i class="fa fa-handshake-o" aria-hidden="true"></i>
@@ -50,7 +62,10 @@
           </div>
         </div>
          <div class="carousel-item">
-          <img class="d-block img-fluid" src="../assets/img/sliderImage5.jpg" alt="Third slide">
+          <div class="backImg5">
+            <div class="backLayer"></div>
+          </div>
+          <!-- <img class="d-block img-fluid" src="../assets/img/sliderImage5.jpg" alt="Third slide"> -->
           <div class="carousel-caption d-md-block captionStyle">
             <div class="sliderIcon">
               <i class="fa fa-code" aria-hidden="true"></i>
@@ -1219,7 +1234,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .aboutme,.services,.portfolio,.team,.feedback,.contactme{
     padding: 100px 0px 100px 0px;
   }
@@ -1261,7 +1276,7 @@ export default {
   }
   .backgroundLayer {
     position:absolute;
-    background-color: rgb(26,188,156,0.5);
+    background-color: rgba(26,188,156,0.5);
     width:100%;
     height:300px;
     z-index:1000;
@@ -1340,9 +1355,52 @@ export default {
   .carousel {
     height: 700px;
   }
-  .carousel-item img{
-    width: 100%!important;
-    height: 700px;
+  .carousel-item {
+    .backImg1 {
+      background: url("../assets/img/sliderImage1.jpeg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 700px;
+    }
+
+    .backImg2 {
+      background: url("../assets/img/sliderImage2.jpeg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 700px;
+    }
+
+    .backImg3 {
+      background: url("../assets/img/sliderImage3.jpeg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 700px;
+    }
+
+    .backImg4 {
+      background: url("../assets/img/sliderImage4.jpeg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 700px;
+    }
+
+    .backImg5 {
+      background: url("../assets/img/sliderImage5.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 700px;
+    }
+
+    .backLayer {
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+    }
   }
   .captionStyleFirst{
     padding-bottom: 250px!important;
@@ -1352,17 +1410,18 @@ export default {
   }
   .welcomeText {
     font-size: 70px;
-    color: #007BFF;
+    // color: #007BFF;
   }
   .choosingmeText{
-    color: #007BFF;
+    // color: #007BFF;
     z-index: 100000;
   }
   .sliderIcon{
     width: 70px;
     height: 70px;
     border-radius: 80px;
-    background-color: #007BFF;
+    background-color: #fff;
+    color: #007BFF;
     margin: 0 auto;
     font-size: 40px;
     margin-top: -20px!important;
@@ -1431,8 +1490,8 @@ export default {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 2px solid #007BFF;
-  border-bottom: 2px solid #007BFF;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb07 2s infinite;
