@@ -19,3 +19,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  .main {
+    margin-top: 80px;
+  }
+</style>
