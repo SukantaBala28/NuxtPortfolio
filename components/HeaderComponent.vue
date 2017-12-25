@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-faded fixed-top" style="background-color: #727F80;border-bottom: 2px solid #007BFF;" :class="{showBar: scrollPosition < 20, hideBar: scrollPosition > 20}">
-    <a class="navbar-brand" href="#">SUKANTA BALA</a>
+    <a class="navbar-brand" href="#"><img class="img img-responsive logoImg" src="../assets/img/project/mylogo.png" height="100px" width="300px" alt="My Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -118,6 +118,12 @@ export default {
 @media screen and (max-width: 980px) {
   .navbar{
     border-bottom: 0px!important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logoImg{
+    width: 180px!important;
+    height: 70px!important;
   }
 }
 </style>

@@ -9,7 +9,7 @@
           <!-- <img class="d-block img-fluid" src="../assets/img/sliderImage1.jpeg" alt="First slide"> -->
           <div class="carousel-caption d-md-block captionStyleFirst">
             <h1 class="welcomeText aboveLayer">LOOKING FORWARD TO HEARING FROM YOU</h1>
-            <h1 class="aboveLayer">Why You Choosing Me, Because...</h1>
+            <h3 class="aboveLayer">Why You Choosing Me, Because...</h3>
             <section id="section07">
               <a class="aboveLayer" href="#about"><span></span><span></span><span></span></a>
             </section>
@@ -92,12 +92,12 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-bottom:50px;">
             <h1>ABOUT ME</h1>
-            <h5>Think Positive, Be Positive</h5>
+            <h5><em>"Think Positive, Be Positive"</em></h5>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-8 aboutmeText">
-            <h5> " My name is Sukanta Bala. I am a CSE graduate from Noakhali Science and Technology University. I have been working in a software firm since 1st Oct, 2016 as a junior web developer. I have been developing various project since university. These projects are based on MEAN stack, pure HTML, CSS, JavaScript, Vue JS, and ASP.NET etc. You can find my Curriculum Vitae link in footer section. I always take care my client’s project deadline. I am hard worker person and I am highly interested to learn a new technology. Reading tech blog is like a hobby to me. You can depend on me without no hesitation for completing your dream project.<br/><br/>
+            <h5> " My name is Sukanta Bala. I am a CSE graduate from Noakhali Science and Technology University. I have been working in a software firm since 1st Oct, 2016 as a junior web developer. I have been developing various project since university. These projects are based on MEAN stack, pure HTML, CSS, JavaScript, Vue JS, and ASP.NET etc. You can find my Curriculum Vitae link in footer section. I always take care my client’s project deadline. I am hard worker person and I am highly interested to learn a new technology. Reading tech blog is like a hobby to me. You can depend on me without no hesitation for completing your dream project. My favourite quote is <em>"Where knowledge is limited, where intelligence is available, there is impossible to release."</em><br/><br/>
             My nationality is Bangladeshi. I am proud to be a Bangladeshi. My home district is Gopalganj. You are always welcome to visit my village home. " 
             </h5>
           </div>
@@ -128,7 +128,7 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-bottom:50px;">
             <h1>SERVICES</h1>
-            <h5>I always take care my client.</h5>
+            <h5><em>"I always take care my client."</em></h5>
           </div>
         </div>
         <div class="row text-center">
@@ -192,7 +192,7 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-bottom:50px;">
             <h1>PORTFOLIO</h1>
-            <h5>Portfolio is best way to express yourself.</h5>
+            <h5><em>"Portfolio is a best way to express yourself."</em></h5>
           </div>
         </div>
         <div class="row text-center">
@@ -548,20 +548,6 @@
                       </div>
                     </div>
                   </div>
-                  <!-- <div class="col-lg-4">
-                    <div class="card">
-                      <a data-toggle="modal" data-target="#patarboiModal3">
-                        <img class="card-img-top" src="../assets/img/patarboi.png" height="300px" alt="Clients Webdesing Project">
-                      </a>
-                      <div class="card-body">
-                        <h4 class="card-title">Webdesign </h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#patarboiModal3">
-                          See Details
-                        </button>
-                      </div>
-                    </div>
-                  </div> -->
                 </div>
               </div>
               <div id="mean" class="tab-pane fade">
@@ -653,7 +639,7 @@
         <div class="row">
           <div class="col-lg-12 text-center" style="padding-bottom:50px;">
             <h1>OUR TEAM</h1>
-            <h5>Unity is strength. A team makes a project more successful.</h5>
+            <h5><em>"Unity is strength. A team makes a project more successful."</em></h5>
           </div>
         </div>
         <div class="row text-center justify-content-center">
@@ -670,7 +656,7 @@
               <img src="../assets/img/me1.jpg" class="teamImg" width="150px" height="150px">
               <h4>Sukanta Bala</h4>
               <p>Junior Software Engineer</p>
-              <p class="text-muted">Sukanta Bala is a Full Stack Web Developer. He has more than 1 years experience in MEAN stack platform. Now, he is working on Vue Js.</p>
+              <p class="text-muted">I am a Full Stack Web Developer. I have more than 1 years experience in MEAN stack platform. Now, I am working on Vue Js platform.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -704,7 +690,7 @@
     <div id="feedback" class="feedback">
       <div class="text-center" style="padding-bottom:50px;">
         <h1>CLIENT FEEDBACK</h1>
-        <h5>Client feedback express a person's ability, honesty and dedication.</h5>
+        <h5><em>"Client feedback express a person's ability, honesty and dedication."</em></h5>
       </div>
       <div id="carouselExampleControls1" class="carousel vert slide" data-ride="carousel" data-interval="4000">
         <div class="carousel-inner" role="listbox">
@@ -1406,7 +1392,7 @@ export default {
     padding-bottom: 250px!important;
   }
   .captionStyle{
-    padding-bottom: 300px!important;
+    padding-bottom: 350px!important;
   }
   .welcomeText {
     font-size: 70px;
@@ -1542,15 +1528,42 @@ export default {
   .carousel {
     height: 500px;
   }
-  .carousel-item img{
-    width: 100%!important;
-    height: 500px;
+  .carousel-item {
+    .backImg1,.backImg2,.backImg3,.backImg4,.backImg5 {
+      height:500px;
+    }
   }
-  .captionStyle{
-    padding-bottom: 60px!important;
+  .captionStyleFirst {
+      padding-bottom: 250px!important;
+  }
+  .captionStyle {
+    padding-bottom: 200px!important;
   }
    .welcomeText {
     font-size: 30px;
+  }
+}
+
+ @media screen and (max-width: 768px) {
+  #section07 {
+    display: none;
+  }
+  .captionStyleFirst{
+    padding-bottom: 50px!important;
+  }
+   .captionStyle {
+    padding-bottom: 60px!important;
+  }
+  .welcomeText {
+    font-size: 25px;
+  }
+  .carousel {
+    height: 300px;
+  }
+  .carousel-item {
+    .backImg1,.backImg2,.backImg3,.backImg4,.backImg5 {
+      height:300px;
+    }
   }
 }
 
